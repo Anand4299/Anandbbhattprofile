@@ -4,8 +4,6 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiHtml5,
-  DiCss3,
   DiGit,
   DiJava,
 } from "react-icons/di";
