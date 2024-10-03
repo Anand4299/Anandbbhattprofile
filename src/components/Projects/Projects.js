@@ -20,11 +20,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todolist}
+              imgPath={Flightbooking}
               isBlog={false}
-              title="to_do_list"
+              title="Flight_Booking"
               description="todo list use to tasks as completed to stay motivated work"
-              ghLink=""
+              ghLink="https://github.com/Anand4299/Travel"
               demoLink="https://anandtravel.netlify.app"
 
           <Col md={4} className="project-card">
