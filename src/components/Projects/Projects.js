@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatbot from "../../Assets/Projects/thechatbot.png";
-import tictactoe from "../../Assets/Projects/tictactoe.png";
-import mailandesha from "../../Assets/Projects/mailandesha.png";
+import todolist from "../../Assets/Projects/preview-page0.jpg";
+import TRAVEL from "../../Assets/Projects/travel.png"
 
 
 function Projects() {
@@ -21,46 +20,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mailandesha}
+              imgPath={TRAVEL}
               isBlog={false}
-              title="Mailandesha"
-              description="An email marketing site with wich you can create your  personized campaigns "
-              ghLink="https://github.com/harshal-makwana/mailandesha-client"
-              demoLink="https://mailandesha.netlify.app/"
+              title="help to booking fligh and Booking trip"
+              description="AnandTravel web is provide best trip plan provide  "
+              ghLink="https://github.com/Anand4299/Travel"
+              demoLink="https://anandtravel.netlify.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tictactoe}
+              imgPath={todolist}
               isBlog={false}
-              title="Tic-Tac-Toe"
-              description="TIC_TAC_TOE game with minimax algorithm which is unbeatable"
-              ghLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-              demoLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-            />
-          </Col>
-
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={"https://cdn.analyticsvidhya.com/wp-content/uploads/2020/08/Sentiment-Analysis-scaled.jpg"}
-              isBlog={false}
-              title="Sentiment_Analysis"
-              description="Sentiment_Analysis for movie reviews using LSTM and Attension mechanism "
-              ghLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-              // demoLink="hhttps://unbeatable-tic-tac-toe-ai.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatbot}
-              isBlog={false}
-              title="Ana_the_chatBot"
-              description="AI chatbot for tasks like : Text summarey , Ai chatbot, Image creation and JS converter"
-              ghLink="https://github.com/harshal-makwana/chatbotgpt"
-              demoLink="https://anathechatbot.netlify.app/"
+              title="to_do_list"
+              description="todo list use to tasks as completed to stay motivated work"
+              ghLink="https://github.com/Anand4299/TO-DO-list"
+              demoLink="https://to-do-list-by-anand.netlify.app/"
             />
           </Col>
         </Row>
