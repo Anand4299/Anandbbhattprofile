@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todolist from "../../Assets/Projects/preview-page0.jpg";
-
+import FlightBooking from "../../Assets/Project/best-flight-booking-app(1).png
 
 
 function Projects() {
