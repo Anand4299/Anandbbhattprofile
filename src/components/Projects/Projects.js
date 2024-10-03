@@ -18,7 +18,14 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todolist}
+              isBlog={false}
+              title="to_do_list"
+              description="todo list use to tasks as completed to stay motivated work"
+              ghLink=""
+              demoLink="https://anandtravel.netlify.app"
 
           <Col md={4} className="project-card">
             <ProjectCard
