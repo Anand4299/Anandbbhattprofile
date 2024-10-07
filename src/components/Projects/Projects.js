@@ -28,7 +28,17 @@ function Projects() {
               demoLink="https://anandtravel.netlify.app"
             />
           </Col>
-            
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quiz}
+              isBlog={false}
+              title="quiz"
+              description="quiz app to use improve incress knowlage "
+              ghLink="https://github.com/Anand4299/Quiz-App"
+
+              demoLink="https://anandquiz.netlify.app"
+            />
+          </Col>
 
             <Col md={4} className="project-card">
             <ProjectCard
