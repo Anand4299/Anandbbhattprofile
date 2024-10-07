@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todolist from "../../Assets/Projects/preview-page0.jpg";
 import Travel from "../../Assets/Projects/travel.png"
-
+import quiz from "../../Assets/Projects/quiz.jpg"
 function Projects() {
   return (
     <Container fluid className="project-section">
