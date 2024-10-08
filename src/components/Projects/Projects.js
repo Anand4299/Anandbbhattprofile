@@ -4,8 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todolist from "../../Assets/Projects/preview-page0.jpg";
 import Travel from "../../Assets/Projects/travel.png"
-import quiz from "../../Assets/Projects/quiz.jpg"
-import Tictactoe from "../../Assets/Projects/TicTacToe.jpg"
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -30,29 +29,7 @@ function Projects() {
             />
           </Col>
             
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Tictactoe}
-              isBlog={false}
-              title="quiz"
-              description="quiz app to use improve incress knowlage "
-              ghLink="https://github.com/Anand4299/Tic-Tac-Toe"
 
-              demoLink="https://anand-tic-tac-toe.netlify.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={quiz}
-              isBlog={false}
-              title="quiz"
-              description="quiz app to use improve incress knowlage "
-              ghLink="https://github.com/Anand4299/Quiz-App"
-
-              demoLink="https://anandquiz.netlify.app"
-            />
-          </Col>
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todolist}
